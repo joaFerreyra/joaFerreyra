@@ -1,0 +1,242 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body{
+    font-family: Georgia;
+    margin: 0%;
+    background-color: rgb(190, 219, 219);
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   background-color: rgb(251, 169, 160);
+   padding: 10px;
+} 
+
+
+.navegacion{
+    color: black;
+    padding-right: 40px;
+}
+
+.navegacion:hover{
+    color: white;
+}
+
+.logo22{
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+
+i{ 
+    margin: 10px 40px 10px 20px;
+}
+
+.contenedor{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width:500px;
+    margin: auto;
+}
+
+ .mascotas img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.mascotas img:hover {
+transform:scale(1.2);
+}
+.navf{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-right: 30px;
+    display: inline-block;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.navf:hover{
+    color: white;
+}
+
+.Nom{
+        text-align: center;
+        padding: 30px;
+} 
+
+footer{
+    padding: 10px;
+    margin-bottom: 0; 
+    margin-top: 200px;
+    background-color:  rgb(194, 115, 194);
+    text-align: center;
+    margin-left: 0;
+}
+
+.navf:hover{
+    color:rgb(153, 225, 153);
+}
+
+.infooo{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.galeria1{
+    width: 400px;
+    height: 400px;
+}
+
+.galeria2{
+    width: 400px;
+    height: 400px;
+}
+
+.galeria3{
+    width: 400px;
+    height: 400px;
+}
+
+.galeria4{
+    width: 400px;
+    height: 400px;
+}
+.Container-papa img:hover {
+    transform:scale(1.2);
+    }
+
+
+.conejo{
+    width: 400px;
+    height: 400px;
+    margin: 20px 710px 20px;
+}
+
+.pato{
+    width: 400px;
+    height: 400px;
+    margin: 20px 710px 20px;
+}
+
+.tortuga{
+    width: 400px;
+    height: 400px;
+    margin: 20px 710px 20px;
+}
+
+.holaas{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Contacto{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3px;
+    font-family: Arial;
+    background-color: rgb(27, 32, 32);
+    border: white solid 6px;
+}
+
+.control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 4px double black;
+    max-width: 370px;
+}
+
+.boton{
+    width: 100px;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+    justify-content: flex-end;
+    margin-left: 35%;
+}
+
+.parrafin{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.sexo{
+    color: white;
+}
+
+.lorem{
+padding: 10%;
+}
+
+.otrasmascotas{
+text-align: center;
+padding-top: 40px;
+}
+
+.contactonombre{
+    text-align: center;
+    padding-top: 50px;
+}
+
+looor{
+    text-align: justify;
+}
+
+@media screen and (max-width:480px){
+header{
+    display: flex;
+    flex-direction: column;
+}   
+.navegacion{
+padding: 7px;
+}
+.parr{
+       text-align: center;
+       padding-top: 30px;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+h1{
+       text-align: center;
+       font-size: 23px;
+       padding-top: 20px;
+    }
+.mascotas{
+       padding-left: 40px;
+       border: 20px;
+       padding-top: 40px;
+    }
+.logo22{
+display:flex;
+align-items:center;
+padding-left: 0px;
+}
+.Container-papa{
+    display: grid;
+    grid-column: auto;
+}
+.Container-papa{
+    padding-top: 30px;
+    justify-items: center;
+}
+}
